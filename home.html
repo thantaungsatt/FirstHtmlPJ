@@ -1,0 +1,2673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Shop</title>
+    <link rel="stylesheet" href="product.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!--nav-->
+
+    <section class="header" id="Home">
+        <nav>
+            <div class="logo">
+                <a href="#Home">
+                    <h1>NextGen<span>hub</span></h1>
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Shop">Shop</a></li>
+                <li class="Review">Review</li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#">
+                        <input type="text" placeholder="Search.....">
+                </li>
+            </ul>
+
+
+            <!--User-->
+
+            <a href="login.html"><span class="user"><i class="bx bx-user"></i></span></a>
+
+            <!--Cart-->
+
+            <div class="icon-cart">
+                <i class='bx bxs-cart-alt'></i>
+                <span>0</span>
+            </div>
+
+            <div class="sidebar" id="cart">
+                <div class="sidebar-close">
+                    <i class='bx bx-x-circle'></i>
+                </div>
+                <div class="cart-menu">
+                    <h3>My Cart</h3>
+                    <div class="cart-items"></div>
+
+                    <div class="sidebar-footer">
+                        <div class="total-amount">
+                            <h5>Total</h5>
+                            <div class="cart-total">$0</div>
+                        </div>
+                        <a href="login.html" class="checkout-btn">
+                            <p>Checkout</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Review-->
+
+            <div class="review">
+                <i class='close-review bx bx-x'></i>
+                <div class="post">
+                    <div class="text">Thanks for ratting us!</div>
+                    <div class="edit">Edit</div>
+                </div>
+                <div class="rate">
+                    <input type="radio" name="rate" id="rate-5">
+                    <label for="rate-5" class='bx bxs-star'></label>
+                    <input type="radio" name="rate" id="rate-4">
+                    <label for="rate-4" class='bx bxs-star'></label>
+                    <input type="radio" name="rate" id="rate-3">
+                    <label for="rate-3" class='bx bxs-star'></label>
+                    <input type="radio" name="rate" id="rate-2">
+                    <label for="rate-2" class='bx bxs-star'></label>
+                    <input type="radio" name="rate" id="rate-1">
+                    <label for="rate-1" class='bx bxs-star'></label>
+                    <form action="#">
+                        <div class="textarea">
+                            <textarea cols="30" placeholder="Describe your experience..."></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+    </section>
+
+
+    <!--Home-->
+
+    <section class="ad" id="Home">
+        <div class="overlay">
+            <h1>Think Different</h1>
+            <span class="slogan">Find The Happiness With Your New Device</span>
+        </div>
+    </section>
+
+
+
+    <section class="products" id="Products">
+
+        <!--Category-->
+
+        <div class="category">
+
+            <div class="type"><a href="#iphone">
+                    <img src="iphone-img/apple-iphone-15-pro-max-1.jpg"></a>
+                <h5>iPhone</h5>
+            </div>
+
+            <div class="type"><a href="#ipad">
+                    <img src="ipad-img/ipad.webp"></a>
+                <h5>iPad</h5>
+            </div>
+
+            <div class="type"><a href="#watch">
+                    <img src="watch-img/apple-watch-8se-2022-1.jpg"></a>
+                <h5>Watch</h5>
+            </div>
+
+            <div class="type"><a href="#samsung">
+                    <img src="Samsung-img/samsung-galaxy-s24-ultra.jpg"></a>
+                <h5>Samsung</h5>
+            </div>
+
+            <div class="type"><a href="#xiaomi">
+                    <img src="Xiaomi-img/xiaomi-civi-4-pro-2.jpg"></a>
+                <h5>Xiaomi</h5>
+            </div>
+
+            <div class="type"><a href="#huawei">
+                    <img src="huawei/huawei-pura70-pro-2.jpg"></a>
+                <h5>Huawei</h5>
+            </div>
+
+            <div class="type"><a href="#tablet">
+                    <img src="tablet/xiaomi-pad6-pro-2.jpg"></a>
+                <h5>Tablet</h5>
+            </div>
+
+            <div class="type"><a href="#access">
+                    <img src="access/HardPhone (1).jpg"></a>
+                <h5>Accessories</h5>
+            </div>
+
+        </div>
+
+        <!--Popular-Product-->
+
+        <div class="p">
+            <h2>Popular Products</h2>
+        </div>
+
+        <div class="popular-product">
+
+            <div class="row">
+                <img src="Samsung-img/samsung-galaxy-s24-ultra-5g.jpg" class="s24">
+                <div class="hot">
+                    <i class='bx bxs-hot'></i>
+                </div>
+
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+
+                <h5 class="title">Samsung S24 Ultra</h5>
+                <div class="price">$1200</div>
+                <button class="addToCart">Add to Cart</button>
+
+            </div>
+
+            <div class="row">
+                <img src="iphone-img/apple-iphone-15.jpg" class="ip15">
+                <div class="hot">
+                    <i class='bx bxs-hot'></i>
+                </div>
+
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+
+                <h5 class="title">iphone 15</h5>
+                <div class="price">$600</div>
+                <button class="addToCart">Add to Cart</button>
+
+            </div>
+
+            <div class="row">
+                <img src="Xiaomi-img/xiaomi-14-ultra.jpg" class="xi14">
+                <div class="hot">
+                    <i class='bx bxs-hot'></i>
+                </div>
+
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+
+                </div>
+
+                <h5 class="title">Xiaomi 14 Ultra</h5>
+                <div class="price">$900</div>
+                <button class="addToCart">Add to Cart</button>
+
+            </div>
+
+            <div class="row">
+                <img src="Xiaomi-img/redmi pad se.webp" class="xipad">
+                <div class="hot">
+                    <i class='bx bxs-hot'></i>
+                </div>
+
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+
+                <h5 class="title">Redmi Pad SE</h5>
+                <div class="price">$250</div>
+                <button class="addToCart">Add to Cart</button>
+
+            </div>
+
+            <div class="row">
+                <img src="watch-img/apple-watch-8-aluminum.jpg" class="watch8">
+                <div class="hot">
+                    <i class='bx bxs-hot'></i>
+                </div>
+
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+
+                <h5 class="title">Apple Watch 8</h5>
+                <div class="price">$300</div>
+                <button class="addToCart">Add to Cart</button>
+
+            </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <!--ad-->
+
+    <div class="advertising">
+
+        <div class="ad-pic">
+            <img src="ad/ad4.jpg" alt="">
+        </div>
+
+        <div class="ad-pic">
+            <img src="ad/ad3.jpg" alt="">
+        </div>
+
+        <div class="ad-pic">
+            <img src="ad/redmi pad se.webp" alt="">
+        </div>
+
+        <div class="ad-pic">
+            <img src="ad/ad6.jpg" alt="">
+        </div>
+
+        <div class="ad-pic">
+            <img src="ad/ad8.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!--New-Product-->
+
+    <section class="feature">
+        <div class="h">
+            <h2>New Products</h2>
+        </div>
+
+        <div class="feature-product">
+
+            <div class="new-product">
+                <h5 class="new">New</h5>
+                <img src="new/hoco-gaming-headphones.jpg" alt="">
+                <h5 class="title">Hoco Gaming Headphone</h5>
+                <div class="price">$230</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="new-product">
+                <h5 class="new">New</h5>
+                <img src="new/PG4 RGB Wireless Gaming Headset.jpg" alt="">
+                <h5 class="title">PG4 RGB Wireless Gaming</h5>
+                <div class="price">$150</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="new-product">
+                <h5 class="new">New</h5>
+                <img src="new/Gaming Headset.webp" alt="">
+                <h5 class="title">G951S Gaming Headphone</h5>
+                <div class="price">$200</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="new-product">
+                <h5 class="new">New</h5>
+                <img src="new/Gaming Headset.jpg" alt="">
+                <h5 class="title">RGB Gaming Headphone</h5>
+                <div class="price">$190</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="new-product">
+                <h5 class="new">New</h5>
+                <img src="new/Gaming Headset.png" alt="">
+                <h5 class="title">Cute Gaming Headphone</h5>
+                <div class="price">$180</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="new-product">
+                <h5 class="new">New</h5>
+                <img src="new/Blue Wireless Gaming Headset.jpg" alt="">
+                <h5 class="title">Wireless Gaming Headphone</h5>
+                <div class="price">$150</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--ad1-->
+
+    <div class="advertising-one">
+
+        <div class="ad-one">
+            <img src="ad/ad7.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad10.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad11.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad12.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad13.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad14.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad9.jpg" alt="">
+        </div>
+
+        <div class="ad-one">
+            <img src="ad/ad5.jpg" alt="">
+        </div>
+
+    </div>
+
+
+    <!--Product-->
+
+    <section class="feature">
+        <div class="h">
+            <h2>Promotion Products</h2>
+        </div>
+
+        <div class="feature-product">
+
+            <div class="product">
+                <img src="access/Earphone (1).jpg" alt="">
+                <h5 class="title">R15 Earphone 3.5mm</h5>
+                <p class="price">$5</p>
+                <p class="dis-price">$15</p>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="access/Ep (2).jpg" alt="">
+                <h5 class="title">RM235 AirPod</h5>
+                <p class="price">$20</p>
+                <div class="dis-price">$30</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="access/Earphone (2).jpg" alt="">
+                <h5 class="title">V866 Earphone Type-C</h5>
+                <p class="price">$5</p>
+                <div class="dis-price">$10</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="access/Ep (1).jpg" alt="">
+                <h5 class="title">Neckband Earphone</h5>
+                <p class="price">$12</p>
+                <div class="dis-price">$20</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <p class="out">Sold Out</p>
+                <img src="access/JBL.jpg" alt="">
+                <h5 class="title">JBL Speaker</h5>
+                <p class="price">$50</p>
+                <div class="dis-price">$100</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="access/space-MV-695-wireless-neckband..webp" alt="">
+                <h5 class="title">MV-695 Wireless Neckband</h5>
+                <p class="price">$8</p>
+                <div class="dis-price">$15</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <p class="out">Sold Out</p>
+                <img src="access/HardPhone (1).jpg" alt="">
+                <h5 class="title">Wireless Headphone</h5>
+                <p class="price">$8</p>
+                <div class="dis-price">$20</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="access/Earphone (2).webp" alt="">
+                <h5 class="title">P255 Earphone Type-C </h5>
+                <p class="price">$5</p>
+                <div class="dis-price">$10</div>
+                <button class="addToCart">Add to Cart</button>
+            </div>
+
+        </div>
+
+        <!--ad-->
+
+    </section>
+
+
+    <!--iphoneAD-->
+
+    <section class="advertising-two">
+        <div class="ad-two"></div>
+    </section>
+
+
+    <!--Mobile Phone & Accessories-->
+
+    <section class="mobile" id="Shop">
+
+        <!--iPhone-->
+
+        <div class="m" id="iphone">
+            <h2>Apple</h2>
+        </div>
+
+        <div class="container">
+
+            <button id="prev-slide" class='slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15-pro.jpg" class="ip15pro">
+                    <h5 class="title">iPhone 15 Pro</h5>
+                    <div class="price">$800</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-13-mini.jpg" class="ip13mini">
+                    <h5 class="title">iPhone 13 Mini</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-13-pro.jpg" class="ip13pro">
+                    <h5 class="title">iPhone 13 Pro</h5>
+                    <div class="price">$400</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15-plus.jpg" alt="">
+                    <h5 class="title">iPhone 15 Plus</h5>
+                    <div class="price">$700</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-14-pro-max.jpg" alt="">
+                    <h5 class="title">iPhone 14 ProMax</h5>
+                    <div class="price">$800</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-14-pro.jpg" alt="">
+                    <h5 class="title">iPhone 14 Pro</h5>
+                    <div class="price">$600</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15.jpg" alt="">
+                    <h5 class="title">iPhone 15</h5>
+                    <div class="price">$600</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15.jpg" alt="">
+                    <h5 class="title">iPhone 15</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15.jpg" alt="">
+                    <h5 class="title">iPhone 15</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15.jpg" alt="">
+                    <h5 class="title">iPhone 15</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./iphone-img/apple-iphone-15.jpg" alt="">
+                    <h5 class="title">iPhone 15</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+            </div>
+            <button id="next-slide" class='slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--iphoneAD-->
+
+        <div class="advertising-one">
+
+            <div class="ad-one">
+                <img src="ad/iph16 (1).jpg" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (2).JPG" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (3).JPG" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (4).jpg" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (6).jpg" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (7).jpg" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (8).jpg" alt="">
+            </div>
+
+            <div class="ad-one">
+                <img src="ad/iph16 (9).jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <!--iPad-->
+
+        <div class="m" id="ipad">
+            <h2>iPad</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-10-2022.jpg" class="ipad10">
+                    <h5 class="title">Apple iPad 10 (2022)</h5>
+                    <div class="price">$460</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-pro-13-2024.jpg" class="ipad13pro">
+                    <h5 class="title">Apple iPad Pro 13 (2024)</h5>
+                    <div class="price">$1650</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-pro-11-2022.jpg" class="ipad11pro">
+                    <h5 class="title">Apple iPad Pro 11 (2022)</h5>
+                    <div class="price">$1150</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-11-2024.jpg" alt="">
+                    <h5 class="title">Apple iPad Air 11 (2024)</h5>
+                    <div class="price">$800</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-pro-12.9-2022.jpg" alt="">
+                    <h5 class="title">Apple iPad Pro 12.9 (2022)</h5>
+                    <div class="price">$1500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-2022.jpg" alt="">
+                    <h5 class="title">Apple iPad Air (2022)</h5>
+                    <div class="price">$600</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-13-2024.jpg" alt="">
+                    <h5 class="title">Apple iPad Air 13 (2024)</h5>
+                    <div class="price">$1000</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-13-2024.jpg" alt="">
+                    <h5 class="title">Apple iPad Air 13 (2024)</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-13-2024.jpg" alt="">
+                    <h5 class="title">Apple iPad Air 13 (2024)</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-13-2024.jpg" alt="">
+                    <h5 class="title">Apple iPad Air 13 (2024)</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./ipad-img/apple-ipad-air-13-2024.jpg" alt="">
+                    <h5 class="title">Apple iPad Air 13 (2024)</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--SsAd-->
+
+        <div class="advertising-three">
+
+            <div class="ad-three">
+                <img src="Samsung-img/ad.jpeg" alt="">
+            </div>
+
+            <div class="ad-three">
+                <img src="Samsung-img/ad1.jpg" alt="">
+            </div>
+
+            <div class="ad-three">
+                <img src="Samsung-img/ad2.webp" alt="">
+            </div>
+
+        </div>
+
+
+        <!--Samsung-->
+
+        <div class="m" id="samsung">
+            <h2>Samsung</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-z-fold5-5g.jpg" class="zfold5">
+                    <h5 class="title">Galaxy Z Fold5</h5>
+                    <div class="price">$1500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-s24-ultra-5g.jpg" class="s24u">
+                    <h5 class="title">Galaxy S24 Ultra</h5>
+                    <div class="price">$1200</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-f55.jpg" class="f55">
+                    <h5 class="title">Galaxy F55</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-m55.jpg" alt="">
+                    <h5 class="title">Galaxy M55</h5>
+                    <div class="price">$400</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-s23-plus-5g.jpg" alt="">
+                    <h5 class="title">Galaxy S23+</h5>
+                    <div class="price">$800</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-s24-5g.jpg" alt="">
+                    <h5 class="title">Galaxy S24</h5>
+                    <div class="price">$600</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-z-flip5-5g.jpg" alt="">
+                    <h5 class="title">Galaxy Z Flip5</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-z-flip5-5g.jpg" alt="">
+                    <h5 class="title">Galaxy Z Flip5</h5>
+                    <div class="price">$700</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-z-flip5-5g.jpg" alt="">
+                    <h5 class="title">Galaxy Z Flip5</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-z-flip5-5g.jpg" alt="">
+                    <h5 class="title">Galaxy Z Flip5</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Samsung-img/samsung-galaxy-z-flip5-5g.jpg" alt="">
+                    <h5 class="title">Galaxy Z Flip5</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--xiaomiAd-->
+
+        <div class="advertising-three">
+
+            <div class="ad-three">
+                <img src="Xiaomi-img/redmi note13.jpg" alt="">
+            </div>
+
+            <div class="ad-three">
+                <img src="Xiaomi-img/xiaomi 12 5G.webp" alt="">
+            </div>
+
+            <div class="ad-three">
+                <img src="Xiaomi-img/xiaomi13pro.webp" alt="">
+            </div>
+
+        </div>
+
+
+        <!--Xiaomi-->
+
+        <div class="m" id="xiaomi">
+            <h2>Xiaomi</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-civi-3.jpg" class="civi3">
+                    <h5 class="title">Xiaomi Civi 3</h5>
+                    <div class="price">$400</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-14-pro.jpg" class="xi14pro">
+                    <h5 class="title">Xiaomi 14 Pro</h5>
+                    <div class="price">$700</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-k70-pro.jpg" class="k70pro">
+                    <h5 class="title">Redmi K70 Pro</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-turbo3.jpg" alt="">
+                    <h5 class="title">Redmi Turbo 3</h5>
+                    <div class="price">$300</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-note-13r.jpg">
+                    <h5 class="title">Redmi Note 13R</h5>
+                    <div class="price">$200</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-civi2.jpg" alt="">
+                    <h5 class="title">Xiaomi Civi 2</h5>
+                    <div class="price">$400</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-note-12-pro.jpg" alt="">
+                    <h5 class="title">Redmi Note 12 Pro</h5>
+                    <div class="price">$200</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-note-12-pro.jpg" alt="">
+                    <h5 class="title">Redmi Note 12 Pro</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-note-12-pro.jpg" alt="">
+                    <h5 class="title">Redmi Note 12 Pro</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-note-12-pro.jpg" alt="">
+                    <h5 class="title">Redmi Note 12 Pro</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./Xiaomi-img/xiaomi-redmi-note-12-pro.jpg" alt="">
+                    <h5 class="title">Redmi Note 12 Pro</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--huaweiAd-->
+
+        <div class="advertising-four">
+
+            <div class="ad-four">
+                <img src="huawei/Huawei-Pura-70-series-launched.webp" alt="">
+            </div>
+
+            <div class="ad-four">
+                <img src="huawei/mate40.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <!--Huawei-->
+
+        <div class="m" id="huawei">
+            <h2>Huawei</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="huawei/huawei-enjoy-70.jpg" class="enjoy70">
+                    <h5 class="title">Enjoy 70</h5>
+                    <div class="price">$200</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-mate-60-pro-plus.jpg" class="mate60">
+                    <h5 class="title">Mate 60 Pro+</h5>
+                    <div class="price">$1000</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-mate-x3.jpg" class="matex3">
+                    <h5 class="title">Mate X3</h5>
+                    <div class="price">$2000</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-nova-11i.jpg" alt="">
+                    <h5 class="title">Nova 11i</h5>
+                    <div class="price">$400</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-nova-12-ultra.jpg">
+                    <h5 class="title">Nova 12 Ultra</h5>
+                    <div class="price">$650</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-p60.jpg" alt="">
+                    <h5 class="title">P60</h5>
+                    <div class="price">$600</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-pura70-ultra.jpg" alt="">
+                    <h5 class="title">Pure 70 Ultra</h5>
+                    <div class="price">$1500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-pura70-ultra.jpg" alt="">
+                    <h5 class="title">Pure 70 Ultra</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-pura70-ultra.jpg" alt="">
+                    <h5 class="title">Pure 70 Ultra</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-pura70-ultra.jpg" alt="">
+                    <h5 class="title">Pure 70 Ultra</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="huawei/huawei-pura70-ultra.jpg" alt="">
+                    <h5 class="title">Pure 70 Ultra</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--watchAd-->
+
+        <div class="advertising-five">
+
+            <div class="ad-five">
+                <img src="watch-img/apple watch.webp" alt="">
+            </div>
+
+            <div class="ad-five">
+                <img src="watch-img/samsung ring.jpg" alt="">
+            </div>
+
+            <div class="ad-five">
+                <img src="watch-img/samsung watch.jpg" alt="">
+            </div>
+
+            <div class="ad-five">
+                <img src="watch-img/remax watch11.webp" alt="">
+            </div>
+
+        </div>
+
+
+        <!--Watch-->
+
+        <div class="m" id="watch">
+            <h2>Watch</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-ultra.jpg" class="watchu">
+                    <h5 class="title">Watch Ultra</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-8se-2022.jpg" class="watch8se">
+                    <h5 class="title">Watch SE</h5>
+                    <div class="price">$220</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/samsung-galaxy-watch-fe.jpg" class="watchfe">
+                    <h5 class="title">Galaxy Watch FE</h5>
+                    <div class="price">$200</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/xiaomi-redmi-watch4.jpg" alt="">
+                    <h5 class="title">Redmi Watch 4</h5>
+                    <div class="price">$100</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/xiaomi-watch-s3.jpg" alt="">
+                    <h5 class="title">Xiaomi Watch S3</h5>
+                    <div class="price">$130</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/samsung-galaxy-watch6.jpg" alt="">
+                    <h5 class="title">Galaxy Watch6</h5>
+                    <div class="price">$180</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-series9.jpg" alt="">
+                    <h5 class="title">Watch Series9</h5>
+                    <div class="price">$700</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-series9.jpg" alt="">
+                    <h5 class="title">Watch Series9</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-series9.jpg" alt="">
+                    <h5 class="title">Watch Series9</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-series9.jpg" alt="">
+                    <h5 class="title">Watch Series9</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="./watch-img/apple-watch-series9.jpg" alt="">
+                    <h5 class="title">Watch Series9</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--TabletAd-->
+
+        <div class="advertising-three">
+
+            <div class="ad-three">
+                <img src="tablet/galaxy tab s9.jpg" alt="">
+            </div>
+
+            <div class="ad-three">
+                <img src="tablet/huawei mate pad pro.jpg" alt="">
+            </div>
+
+            <div class="ad-three">
+                <img src="tablet/redmi pad.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <!--Tablet-->
+
+        <div class="m" id="tablet">
+            <h2>Android Tablet</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-115-s.jpg" class="matepad11">
+                    <h5 class="title"> Huawei Matepad 11.5 S</h5>
+                    <div class="price">$400</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-air.jpg" class="matepadA">
+                    <h5 class="title"> Huawei Matepad Air</h5>
+                    <div class="price">$550</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/xiaomi-pad-6s-pro-124.jpg" class="pad6sp">
+                    <h5 class="title">Xiaomi Pad 6S Pro 12.4</h5>
+                    <div class="price">$750</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/xiaomi-redmi-pad-pro-5g.jpg" alt="">
+                    <h5 class="title"> Xiaomi Redmi Pad Pro</h5>
+                    <div class="price">$220</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/samsung-galaxy-tab-a9.jpg" alt="">
+                    <h5 class="title">Samsung Galaxy Tab A9</h5>
+                    <div class="price">$200</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/samsung-galaxy-tab-s9-plus-5g.jpg" alt="">
+                    <h5 class="title">Samsung Galaxy Tab S9+</h5>
+                    <div class="price">$1000</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-pro-11-2024.jpg" alt="">
+                    <h5 class="title">Huawei Matepad Pro 11</h5>
+                    <div class="price">$650</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-pro-11-2024.jpg" alt="">
+                    <h5 class="title">Huawei Matepad Pro 11</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-pro-11-2024.jpg" alt="">
+                    <h5 class="title">Huawei Matepad Pro 11</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-pro-11-2024.jpg" alt="">
+                    <h5 class="title">Huawei Matepad Pro 11</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="tablet/huawei-matepad-pro-11-2024.jpg" alt="">
+                    <h5 class="title">Huawei Matepad Pro 11</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--accessAd-->
+
+        <div class="advertising-six">
+
+            <div class="ad-six">
+                <img src="acc ad/bluetooth-speaker-.jpg" alt="">
+            </div>
+
+            <div class="ad-six">
+                <img src="acc ad/bt ad.jpg" alt="">
+            </div>
+
+            <div class="ad-six">
+                <img src="acc ad/gaming ad.jpg" alt="">
+            </div>
+
+            <div class="ad-six">
+                <img src="acc ad/gaming.jpg" alt="">
+            </div>
+
+            <div class="ad-six">
+                <img src="acc ad/headphone-ads.jpg" alt="">
+            </div>
+
+            <div class="ad-six">
+                <img src="acc ad/pb-ad.jpg" alt="">
+            </div>
+
+            <div class="ad-six">
+                <img src="acc ad/pb-ad1.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <!--Accessories-->
+
+        <div class="m" id="access">
+            <h2>Accessories</h2>
+        </div>
+
+        <div class="container">
+            <button id="prev-slide" class=' slide-button bx bx-chevron-left'></button>
+
+            <div class="all">
+
+                <div class="phone">
+                    <img src="powerbank/pb2.jpg" alt="">
+                    <h5 class="title">Redmi Powerbank 20000mAh</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="powerbank/pb3.jpg" alt="">
+                    <h5 class="title">MagSafe Powerbank</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="access/G2050-BLUE.jpg" alt="">
+                    <h5 class="title">G2050 Gaming Headphone</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Apple-EarPods-with-Lightning-Connector.webp" alt="">
+                    <h5 class="title">Apple Earpods Lighting</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Bluetooth Speakers, 60W.jpg" alt="">
+                    <h5 class="title">Bluetooth Speaker 60W</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Beats Headphones.webp" alt="">
+                    <h5 class="title">Beats Wireless Headphone</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Apple AirPods Pro 2.webp" alt="">
+                    <h5 class="title">Apple Airpods Pro 2</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Apple AirPods Pro 2.webp" alt="">
+                    <h5 class="title">Apple Airpods Pro 2</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Apple AirPods Pro 2.webp" alt="">
+                    <h5 class="title">Apple Airpods Pro 2</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Apple AirPods Pro 2.webp" alt="">
+                    <h5 class="title">Apple Airpods Pro 2</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+
+                <div class="phone">
+                    <img src="new/Apple AirPods Pro 2.webp" alt="">
+                    <h5 class="title">Apple Airpods Pro 2</h5>
+                    <div class="price">$500</div>
+                    <button class="addToCart">Add to Cart</button>
+                </div>
+            </div>
+
+            <button id="next-slide" class=' slide-button bx bx-chevron-right'></button>
+        </div>
+
+
+        <!--Specification-->
+        <!--Popular Specification-->
+
+        <div class="spaci" id="s24">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-s24"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Samsung-img/samsung-galaxy-s24-ultra-5g.jpg" alt="">
+                        <h2>Samsung Galaxy S24 Ultra</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/s24.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p>
+                        Type : Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits(peak)<br>
+                        Size : 6.8 inches, 113.5 cm2 (~88.5% screen-to-body ratio)<br>
+                        Resolution : 1440 x 3120 pixels, 19.5:9 ratio(~505 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Quad : 200 MP, f/1.7, 24mm (wide), 1/1.3", 0.6µm<br>
+                        10 MP, f/2.4, 67mm (telephoto),<br>
+                        50 MP, f/3.4, 111mm (periscope telephoto),<br>
+                        12 MP, f/2.2, 13mm, 120˚ (ultrawide)<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 5000 mAh, non-removable<br>
+                        Charging : 45W wired, PD3.0, 65% in 30 min (advertised)<br>
+                        15W wireless (Qi/PMA)<br>
+                        4.5W reverse wireless<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="ip15">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ip15"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="iphone-img/apple-iphone-15.jpg" alt="">
+                        <h2>iPhone 15</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/ip15.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p>
+                        Type : Super Retina XDR OLED, HDR10, Dolby Vision, 1000 nits (HBM), 2000 nits<br>
+                        Size : 6.1 inches, 91.3 cm2 (~86.4% screen-to-body ratio)<br>
+                        Resolution : 1179 x 2556 pixels, 19.5:9 ratio (~461 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Dual : 48 MP, f/1.6, 26mm (wide), <br>
+                        12 MP, f/2.4, 13mm, 120˚<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 3349 mAh, non-removable<br>
+                        Charging : Wired, PD2.0, 50% in 30 min (advertised)<br>
+                        15W wireless (MagSafe)<br>
+                        15W wireless (Qi2) - requires iOS 17.2 update<br>
+                        4.5W reverse wired<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="xi14">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-xi14"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Xiaomi-img/xiaomi-14-ultra.jpg" alt="">
+                        <h2>Xiaomi 14 Ultra</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/xiaomi-14.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p>
+                        Type : LTPO AMOLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 1000 nits (typ), 3000 nits
+                        (peak)<br>
+                        Size : 6.73 inches, 108.9 cm2 (~89.6% screen-to-body ratio)<br>
+                        Resolution : 1440 x 3200 pixels, 20:9 ratio (~522 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Quad : 50 MP, f/1.6-f/4.0, 23mm (wide),<br>
+                        50 MP, f/1.8, 75mm (telephoto),<br>
+                        50 MP, f/2.5, 120mm (periscope telephoto),<br>
+                        50 MP, f/1.8, 12mm, 122˚ (ultrawide),<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : 5000 mAh, non-removable - International<br>
+                        5300 mAh, non-removable - China only<br>
+                        Charging : 90W wired, PD3.0, QC4, 100% in 33 min (advertised)<br>
+                        80W wireless, 100% in 46 min (advertised)<br>
+                        10W reverse wireless<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="xipad">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-xipad"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Xiaomi-img/redmi pad se.webp" alt="">
+                        <h2>Redmi Pad SE</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/xiaomi-pad-se.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : IPS LCD, 90Hz, 400 nits (typ)<br>
+                        Size : 11.0 inches, 347.5 cm2 (~81.4% screen-to-body ratio)<br>
+                        Resolution : 1200 x 1920 pixels, 16:10 ratio (~207 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Single : 8 MP, f/2.0, (wide),<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 8000 mAh, non-removable<br>
+                        Charging : 18W Quick Charge 3.0
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="watch8">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-watch8"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="watch-img/apple-watch-8-aluminum.jpg" alt="">
+                        <h2>Apple Watch 8</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/watch-8.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Retina LTPO OLED, 1000 nits (peak)<br>
+                        Size : 1.9 inches<br>
+                        Resolution : 484 x 396 pixels (~326 ppi density)<br><br>
+                    </p>
+                    <h3>COMMS</h3>
+                    <p>
+                        Wlan : Wi-Fi 802.11 b/g/n, dual-band<br>
+                        Bluetooth : 5.3, A2DP, LE<br>
+                        Positioning : GPS, GLONASS, GALILEO, QZSS, BDS<br>
+                        NFC : Yes<br>
+                        Radio : No<br>
+                        USB : No <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 32GB 1GB RAM<br>
+                        eMMC 5.1<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 308 mAh, non-removable<br>
+                        Charging : Wireless, 0-80% in 45 min (advertised)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Apple Specification-->
+
+        <div class="spaci" id="ip15pro">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ip15pro"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="iphone-img/apple-iphone-15-pro.jpg" alt="">
+                        <h2>iPhone 15 Pro</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/apple-iphone-15-pro.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits
+                        (HBM)<br>
+                        Size : 6.1 inches, 91.3 cm2 (~88.2% screen-to-body ratio)<br>
+                        Resolution : 1179 x 2556 pixels, 19.5:9 ratio (~461 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 48 MP, f/1.8, 24mm (wide),<br>
+                        12 MP, f/2.8, 77mm (telephoto),<br>
+                        12 MP, f/2.2, 13mm, 120˚ (ultrawide)<br>
+                        TOF 3D LiDAR scanner (depth) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 3274 mAh, non-removable<br>
+                        Charging : Wired, PD2.0, 50% in 30 min (advertised)<br>
+                        15W wireless (MagSafe)<br>
+                        15W wireless (Qi2) - requires iOS 17.2 update<br>
+                        4.5W reverse wired<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spaci" id="ip13mini">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ip13mini"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="iphone-img/apple-iphone-13-mini.jpg" alt="">
+                        <h2>iPhone 13 Mini</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/apple-iphone-13-mini.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)<br>
+                        Size : 5.4 inches, 71.9 cm2 (~85.1% screen-to-body ratio)<br>
+                        Resolution : 1080 x 2340 pixels, 19.5:9 ratio (~476 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Dual : 12 MP, f/1.6, 26mm (wide),<br>
+                        12 MP, f/2.4, 120˚, 13mm (ultrawide) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 4GB RAM, 256GB 4GB RAM, 512GB 4GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 2438 mAh, non-removable (9.34 Wh)<br>
+                        Charging : Wired, PD2.0, 50% in 30 min (advertised)<br>
+                        15W wireless (MagSafe)<br>
+                        15W wireless (Qi2) - requires iOS 17.2 update
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spaci" id="ip13pro">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ip13pro"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="iphone-img/apple-iphone-13-pro.jpg" alt="">
+                        <h2>iPhone 13 Pro</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/apple-iphone-13-pro.jpgs" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (HBM), 1200 nits (peak)<br>
+                        Size : 6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)<br>
+                        Resolution : 1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 12 MP, f/1.5, 26mm (wide),<br>
+                        12 MP, f/2.8, 77mm (telephoto),<br>
+                        12 MP, f/1.8, 13mm, 120˚ (ultrawide),<br>
+                        TOF 3D LiDAR scanner (depth) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 3095 mAh, non-removable (12.11 Wh)<br>
+                        Charging : Wired, PD2.0, 50% in 30 min (advertised)<br>
+                        15W wireless (MagSafe)<br>
+                        15W wireless (Qi2) - requires iOS 17.2 update
+                </div>
+            </div>
+        </div>
+
+
+        <!--iPad Specification-->
+
+        <div class="spaci" id="ipad10">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ipad10"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="ipad-img/apple-ipad-10-2022.jpg" alt="">
+                        <h2>Apple iPad 10</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/apple-ipad-10-2022.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Liquid Retina IPS LCD, 500 nits (typ)<br>
+                        Size : 10.9 inches, 359.2 cm2 (~80.5% screen-to-body ratio)<br>
+                        Resolution : 1640 x 2360 pixels (~264 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Single : 12 MP, f/1.8, (wide)<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 64GB 4GB RAM, 256GB 4GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 7606 mAh, non-removable (28.6 Wh)<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="ipad13pro">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ipad13pro"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="ipad-img/apple-ipad-pro-13-2024.jpg" alt="">
+                        <h2>Apple iPad Pro 13</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/apple-ipad-pro-13-2024 1.jpg" alt="">
+                        <img src="spaci/apple-ipad-pro-13-2024.jpg" alt="">
+
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Ultra Retina Tandem OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (HBM), 1600 nits
+                        (peak)<br>
+                        Size : 13.0 inches, 527.3 cm2 (~86.9% screen-to-body ratio)<br>
+                        Resolution : 2064 x 2752 pixels, 4:3 ratio (~264 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Single : 12 MP, f/1.8, (wide),<br>
+                        TOF 3D LiDAR scanner (depth)<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 8GB RAM, 512GB 8GB RAM, 1TB 16GB RAM, <br>
+                        2TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 10290 mAh, non-removable
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spaci" id="ipad11pro">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-ipad11pro"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="ipad-img/apple-ipad-pro-11-2022.jpg" alt="">
+                        <h2>Apple iPad Pro 11</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/apple-ipad-pro-11-2022.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Liquid Retina IPS LCD, 120Hz, HDR10, Dolby Vision, 600 nits (typ)<br>
+                        Size : 11.0 inches, 366.5 cm2 (~82.9% screen-to-body ratio)<br>
+                        Resolution : 1668 x 2388 pixels (~265 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Dual : 12 MP, f/1.8, (wide), 1/3.0", 1.22µm,<br>
+                        10 MP, f/2.4, 125˚ (ultrawide)<br>
+                        TOF 3D LiDAR scanner (depth) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, <br>
+                        1TB 16GB RAM, 2TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 7538 mAh (28.65 Wh), non-removable<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Samsung Specification-->
+
+        <div class="spaci" id="zfold5">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-zfold5"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Samsung-img/samsung-galaxy-z-fold5-5g.jpg" alt="">
+                        <h2>Galaxy Z Fold5</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/z-fold5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Foldable Dynamic AMOLED 2X, 120Hz, HDR10+<br>
+                        Size : 7.6 inches, 183.2 cm2 (~91.1% screen-to-body ratio)<br>
+                        Resolution : 1812 x 2176 pixels (~373 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 50 MP, f/1.8, 23mm (wide),<br>
+                        10 MP, f/2.4, (telephoto),<br>
+                        12 MP, f/2.2, 123˚, 12mm (ultrawide) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 4400 mAh, non-removable<br>
+                        Charging : 25W wired, 50% in 30 min (advertised)<br>
+                        15W wireless<br>
+                        4.5W reverse wireless
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spaci" id="s24u">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-s24u"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Samsung-img/samsung-galaxy-s24-ultra-5g.jpg" alt="">
+                        <h2>Samsung Galaxy S24 Ultra</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/s24.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p>
+                        Type : Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits(peak)<br>
+                        Size : 6.8 inches, 113.5 cm2 (~88.5% screen-to-body ratio)<br>
+                        Resolution : 1440 x 3120 pixels, 19.5:9 ratio(~505 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Quad : 200 MP, f/1.7, 24mm (wide), 1/1.3", 0.6µm<br>
+                        10 MP, f/2.4, 67mm (telephoto),<br>
+                        50 MP, f/3.4, 111mm (periscope telephoto),<br>
+                        12 MP, f/2.2, 13mm, 120˚ (ultrawide)<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 5000 mAh, non-removable<br>
+                        Charging : 45W wired, PD3.0, 65% in 30 min (advertised)<br>
+                        15W wireless (Qi/PMA)<br>
+                        4.5W reverse wireless<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spaci" id="f55">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-f55"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Samsung-img/samsung-galaxy-f55.jpg" alt="">
+                        <h2>Galaxy F55</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/f55.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Super AMOLED+, 120Hz, 1000 nits (HBM)<br>
+                        Size : 6.7 inches, 108.4 cm2 (~86.4% screen-to-body ratio)<br>
+                        Resolution : 1080 x 2400 pixels, 20:9 ratio (~393 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 50 MP, f/1.8, (wide),<br>
+                        8 MP, f/2.2, 123˚ (ultrawide),<br>
+                        2 MP, f/2.4, (macro) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : 5000 mAh, non-removable<br>
+                        Charging : 45W wired
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Xiaomi Specification-->
+
+        <div class="spaci" id="civi3">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-civi3"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Xiaomi-img/xiaomi-civi-3.jpg" alt="">
+                        <h2>Xiaomi Civi 3</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/civi-3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : AMOLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 1500 nits (peak)<br>
+                        Size : 6.55 inches, 103.6 cm2 (~91.0% screen-to-body ratio)<br>
+                        Resolution : 1080 x 2400 pixels, 20:9 ratio (~402 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 50 MP, f/1.8, (wide),<br>
+                        8 MP, f/2.2, 115˚ (ultrawide),<br>
+                        2 MP, f/2.4, (macro)<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 4500 mAh, non-removable<br>
+                        Charging : 67W wired, PD3.0, 100% in 38 minutes (advertised)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="xi14pro">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-xi14pro"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Xiaomi-img/xiaomi-14-pro.jpg" alt="">
+                        <h2>Xiaomi 14 Pro</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/xiaomi-14-pro.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p>
+                        Type : LTPO AMOLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 3000 nits (peak)<br>
+                        Size : 6.73 inches, 108.9 cm2 (~89.6% screen-to-body ratio)<br>
+                        Resolution : 1440 x 3200 pixels, 20:9 ratio (~522 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 50 MP, f/1.4-f/4.0, 23mm (wide),<br>
+                        50 MP, f/2.0, 75mm (telephoto),<br>
+                        50 MP, f/2.2, 14mm, 115˚ (ultrawide),<br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 4880 mAh, non-removable<br>
+                        Charging : 120W wired, PD3.0, QC4, 100% in 18 min (advertised)<br>
+                        50W wireless, 100% in 40 min (advertised)<br>
+                        10W reverse wireless
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="k70pro">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-k70pro"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="Xiaomi-img/xiaomi-redmi-k70-pro.jpg" alt="">
+                        <h2>Redmi K70 Pro</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/xiaomi-redmi-k70-pro.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : OLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 4000 nits (peak)<br>
+                        Size : 6.67 inches, 107.4 cm2 (~89.0% screen-to-body ratio)<br>
+                        Resolution : 1440 x 3200 pixels, 20:9 ratio (~526 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 50 MP, f/1.6, (wide),<br>
+                        50 MP, (telephoto),<br>
+                        12 MP, (ultrawide) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 256GB 16GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 24GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 5000 mAh, non-removable<br>
+                        Charging : 120W wired, PD3.0, QC3+, 100% in 18 min (advertised)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Huawei Specification-->
+
+        <div class="spaci" id="enjoy70">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-enjoy70"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="huawei/huawei-enjoy-70.jpg" alt="">
+                        <h2>Enjoy 70</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/huawei-enjoy-70.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : TFT LCD<br>
+                        Size : 6.75 inches, 110.0 cm2 (~84.1% screen-to-body ratio)<br>
+                        Resolution : 720 x 1600 pixels, 20:9 ratio (~260 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Dual : 50 MP, f/1.8, (wide),<br>
+                        2 MP, f/2.4, (macro) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 8GB RAM, 256GB 8GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 6000 mAh, non-removable<br>
+                        Charging : 22.5W wired
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spaci" id="mate60">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-mate60"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="huawei/huawei-mate-60-pro-plus.jpg" alt="">
+                        <h2>Mate 60 Pro+</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/huawei-mate-60-pro-plus.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : LTPO OLED, 1B colors, 120Hz<br>
+                        Size : 6.82 inches, 114.4 cm2 (~88.5% screen-to-body ratio)<br>
+                        Resolution : 1260 x 2720 pixels, 19.5:9 ratio (~440 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 48 MP, f/1.4-f/4.0, 24mm (wide),<br>
+                        48 MP, f/3.0, 90mm (periscope telephoto),<br>
+                        40 MP, f/2.2, 13mm, 120˚ (ultrawide) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 512GB 16GB RAM, 1TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 5000 mAh, non-removable<br>
+                        Charging : 88W wired, 100% in 30 min (advertised)<br>
+                        50W wireless<br>
+                        20W reverse wireless
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="matex3">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-matex3"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="huawei/huawei-mate-x3.jpg" alt="">
+                        <h2>Mate X3</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/huawei-mate-x3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Foldable OLED, 1B colors, 120Hz<br>
+                        Size : 7.85 inches, 197.5 cm2 (~88.9% screen-to-body ratio)<br>
+                        Resolution : 2224 x 2496 pixels (~426 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Triple : 50 MP, f/1.8, 23mm (wide),<br>
+                        12 MP, f/3.4, 125mm (periscope telephoto),<br>
+                        13 MP, f/2.2, 13mm (ultrawide) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type :Li-Po 4800 mAh, non-removable - Global<br>
+                        Si/C 5060 mAh, non-removable - China only <br>
+                        Charging : 66W wired<br>
+                        50W wireless<br>
+                        7.5W reverse wireless
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--watch Specification-->
+
+        <div class="spaci" id="watchu">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-watchu"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="watch-img/apple-watch-ultra.jpg" alt="">
+                        <h2>Watch Ultra</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/watch-ultra.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Retina LTPO OLED, 2000 nits (peak)<br>
+                        Size : 1.92 inches<br>
+                        Resolution : 502 x 410 pixels (~338 ppi density)<br><br>
+                    </p>
+                    <h3>COMMS</h3>
+                    <p>
+                        Wlan : Wi-Fi 802.11 b/g/n, dual-band<br>
+                        Bluetooth : 5.3, A2DP, LE<br>
+                        Positioning : GPS (L1+L5), GLONASS, GALILEO, BDS<br>
+                        NFC : Yes<br>
+                        Radio : No<br>
+                        USB : No <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 32GB <br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 542 mAh, non-removable<br>
+                        Charging : Wireless, 0-80% in 60 min (advertised)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="watch8se">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-watch8se"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="watch-img/apple-watch-8se-2022.jpg" alt="">
+                        <h2>Watch SE</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/watch-8se.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Retina LTPO OLED, 1000 nits (peak)<br>
+                        Size : 1.78 inches<br>
+                        Resolution : 448 x 368 pixels (~326 ppi density)<br><br>
+                    </p>
+                    <h3>COMMS</h3>
+                    <p>
+                        Wlan : Wi-Fi 802.11 b/g/n <br>
+                        Bluetooth : 5.3, A2DP, LE <br>
+                        Positioning : GPS, GLONASS, GALILEO, QZSS <br>
+                        NFC : Yes <br>
+                        Radio : No <br>
+                        USB : No <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 32GB 1GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 296 mAh, non-removable<br>
+                        Charging : Wireless
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="watchfe">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-watchfe"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="watch-img/samsung-galaxy-watch-fe.jpg" alt="">
+                        <h2>Galaxy Watch FE</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/galaxy-watch-fe.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : Super AMOLED<br>
+                        Size : 1.2 inches<br>
+                        Resolution : 396 x 396 pixels (~330 ppi density)<br><br>
+                    </p>
+                    <h3>COMMS</h3>
+                    <p>
+                        Wlan : Wi-Fi 802.11 a/b/g/n, dual-band<br>
+                        Bluetooth : 5.0, A2DP, LE<br>
+                        Positioning : GPS, GALILEO, GLONASS, BDS<br>
+                        NFC : Yes<br>
+                        Radio : No<br>
+                        USB : No <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 16GB 1.5GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Ion 247 mAh battery, non-removable<br>
+                        Charging : Wireless (Qi)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Tablet Specification-->
+
+        <div class="spaci" id="matepad11">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-matepad11"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="tablet/huawei-matepad-115-s.jpg" alt="">
+                        <h2>Huawei Matepad 11.5 S</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/huawei-matepad-115-s.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : TFT LCD, 144Hz<br>
+                        Size : 11.5 inches, 391.6 cm2 (~84.7% screen-to-body ratio)<br>
+                        Resolution : 1840 x 2800 pixels, 3:2 ratio (~291 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Single : 13 MP, f/1.8, (wide),<br>
+                        Features : LED flash, panorama<br>
+                        Video : 1080p@30fps <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 8GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : 8800 mAh, non-removable<br>
+                        Charging : 22.5W wired<br>
+                        5W reverse wired
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="matepadA">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-matepadA"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="tablet/huawei-matepad-air.jpg" alt="">
+                        <h2>Huawei Madpad Air</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/huawei-matepad-air.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type : IPS LCD, 144Hz<br>
+                        Size : 11.5 inches, 391.6 cm2 (~83.9% screen-to-body ratio)<br>
+                        Resolution : 2800 x 1840 pixels, 3:2 ratio (~291 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Single : 13 MP, f/1.8, PDAF<br>
+                        Features : LED flash<br>
+                        Video : 4K@30fps, 1080p@30fps <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : Li-Po 8300 mAh, non-removable<br>
+                        Charging : 40W wired<br>
+                        10W reverse wired
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaci" id="pad6sp">
+
+            <div class="s">
+
+                <div class="col">
+                    <i class='close-spaci bx bx-x' id="close-pad6sp"></i>
+
+                    <h1>Specification</h1>
+
+                    <div class="left">
+                        <img src="tablet/xiaomi-pad-6s-pro-124.jpg" alt="">
+                        <h2>Xiaomi Pad 6S Pro 12.4</h3>
+                    </div>
+                    <div class="s_left">
+                        <img src="spaci/xiaomi-pad-6s-pro.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h3>Display</h3>
+                    <p> Type :IPS LCD, 68B colors, 144Hz, HDR10, Dolby Vision, 900 nits (peak) <br>
+                        Size : 12.4 inches, 457.8 cm2 (~85.7% screen-to-body ratio)<br>
+                        Resolution : 2032 x 3048 pixels, 3:2 ratio (~295 ppi density)<br><br>
+                    </p>
+                    <h3>Carema</h3>
+                    <p>
+                        Dual : 50 MP, f/1.8, (wide),<br>
+                        2 MP, f/2.4, (depth) <br><br>
+                    </p>
+                    <h3>Memory</h3>
+                    <p>
+                        Internal : 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM<br><br>
+                    </p>
+                    <h3>Battery</h3>
+                    <p>
+                        Type : 10000 mAh, non-removable<br>
+                        Charging : 120W wired, PD3.0, QC4, 45% in 10 min, 100% in 35 min (advertised)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!--Footer-->
+
+    <footer class="footer" id="About">
+
+        <div class="container">
+            <div class="rol">
+                <div class="col" id="Name">
+                    <img src="ad/logo.png" class="logo">
+                    <p>Explore our wide selection, unbeatable prices, and exceptional shopping experience to find the
+                        mobile phone that fits your needs and lifestyle.
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col" id="Sercive">
+                    <h3>QUICK LINK</h3>
+                    <div class="link">
+                        <a href="#">Home</a>
+                        <a href="#Shop">Shop</a>
+                        <a href="#Products">Products</a>
+                        <a href="#">Review</a>
+                    </div>
+                </div>
+
+                <div class="col" id="useful">
+                    <h3>INFORMATION</h3>
+                    <div class="link">
+                        <a href="#">About</a>
+                        <a href="#">Shipping & Delivery</a>
+                        <a href="#">Our Policy</a>
+                        <a href="#">Customer Support</a>
+                    </div>
+                </div>
+
+                <div class="col" id="contact">
+                    <h3>Contact</h3>
+                    <div class="contact-details">
+                        <i class='bx bxs-location-plus'></i>
+                        <p>14/68 U Nge Set Won st,<br>
+                            Taungoo, Bago, Myanmar</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class='bx bxs-envelope'></i>
+                        <p>thantas2292@gmail.com</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class='bx bxs-phone'></i>
+                        <p>+95-9763637172</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 NextGenHub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="product.js"></script>
+
+</body>
+
+</html>
